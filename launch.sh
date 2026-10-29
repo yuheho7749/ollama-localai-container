@@ -1,7 +1,7 @@
 #!/usr/bin/env bash set -e
 
-IMAGE_NAME="ollama-claude:latest"
-CONTAINER_NAME="ollama-claude"
+IMAGE_NAME="ollama-localai:latest"
+CONTAINER_NAME="ollama-localai"
 
 # Check if container exists
 if docker container inspect "$CONTAINER_NAME" >/dev/null 2>&1; then
